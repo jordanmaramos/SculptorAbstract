@@ -1,0 +1,179 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.5"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Doc SculptorAbstract: Referência do Arquivo C:/Users/Jordan Marques/OneDrive/Documentos/projects/SculptorAbstract/main.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Doc SculptorAbstract<span id="projectnumber">&#160;1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhum resultado encontrado</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_f1c991283d0eb883f32dcd5c333211d6.html">Documentos</a></li><li class="navelem"><a class="el" href="dir_ad9899f7b11583c359d79b999d099f92.html">projects</a></li><li class="navelem"><a class="el" href="dir_3d13c7db401b88ad9b78db2f560fbf4c.html">SculptorAbstract</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Funções</a> &#124;
+<a href="#var-members">Variáveis</a>  </div>
+  <div class="headertitle"><div class="title">Referência do Arquivo main.cpp</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="_reader_8h_source.html">Reader.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_figura_geometrica_8h_source.html">FiguraGeometrica.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_sculptor_8h_source.html">Sculptor.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_put_voxel_8h_source.html">PutVoxel.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_cut_voxel_8h_source.html">CutVoxel.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_put_box_8h_source.html">PutBox.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_cut_box_8h_source.html">CutBox.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_put_ellipsoid_8h_source.html">PutEllipsoid.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_cut_ellipsoid_8h_source.html">CutEllipsoid.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_put_sphere_8h_source.html">PutSphere.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_cut_sphere_8h_source.html">CutSphere.h</a>&quot;</code><br />
+<code>#include &lt;vector&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
+<code>#include &lt;iostream&gt;</code><br />
+<code>#include &lt;fstream&gt;</code><br />
+<code>#include &lt;sstream&gt;</code><br />
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Funções</h2></td></tr>
+<tr class="memitem:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a> ()</td></tr>
+<tr class="separator:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variáveis</h2></td></tr>
+<tr class="memitem:a4310dd245f048a7909e2c5e2ac1e4b80"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#a4310dd245f048a7909e2c5e2ac1e4b80">TesteEscultor</a> = &quot;teste.OFF&quot;</td></tr>
+<tr class="separator:a4310dd245f048a7909e2c5e2ac1e4b80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Funções</h2>
+<a id="ae66f6b31b5ad750f1fe042a706a4e3d4" name="ae66f6b31b5ad750f1fe042a706a4e3d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae66f6b31b5ad750f1fe042a706a4e3d4">&#9670;&#160;</a></span>main()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int main </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   20</span>          {</div>
+<div class="line"><span class="lineno">   21</span>    <a class="code hl_class" href="class_sculptor.html">Sculptor</a> *sculptor;</div>
+<div class="line"><span class="lineno">   22</span>    <a class="code hl_class" href="class_reader.html">Reader</a> reader;</div>
+<div class="line"><span class="lineno">   23</span> </div>
+<div class="line"><span class="lineno">   24</span>    <span class="comment">//Desenha</span></div>
+<div class="line"><span class="lineno">   25</span>    std::vector&lt;FiguraGeometrica*&gt; figure = reader.<a class="code hl_function" href="class_reader.html#a1558bee5f03cfd1e8a461485fc263d1a">Read</a>(<span class="stringliteral">&quot;C:/Users/Jordan Marques/OneDrive/Documentos/moeda.txt&quot;</span>);</div>
+<div class="line"><span class="lineno">   26</span>    sculptor = <span class="keyword">new</span> <a class="code hl_class" href="class_sculptor.html">Sculptor</a>(reader.<a class="code hl_function" href="class_reader.html#a4495e329d3d7c296b904e2c099dac479">getDimx</a>(), reader.<a class="code hl_function" href="class_reader.html#a91b7bd0bc6eabe9f99fd160df3d5e228">getDimy</a>(), reader.<a class="code hl_function" href="class_reader.html#ab4ac715553e6ab9711918ffbc0aa2f02">getDimz</a>());</div>
+<div class="line"><span class="lineno">   27</span>    <span class="keywordflow">for</span>(<span class="keywordtype">double</span> i = 0; i &lt; figure.size(); i++){</div>
+<div class="line"><span class="lineno">   28</span>        figure[i]-&gt;draw(*sculptor);</div>
+<div class="line"><span class="lineno">   29</span>    }</div>
+<div class="line"><span class="lineno">   30</span>    </div>
+<div class="line"><span class="lineno">   31</span>    <span class="comment">//Armazena</span></div>
+<div class="line"><span class="lineno">   32</span>    sculptor-&gt;<a class="code hl_function" href="class_sculptor.html#a58cb72d22001a5034f15383ca983830c">writeOFF</a>(<a class="code hl_variable" href="main_8cpp.html#a4310dd245f048a7909e2c5e2ac1e4b80">TesteEscultor</a>);</div>
+<div class="line"><span class="lineno">   33</span>    </div>
+<div class="line"><span class="lineno">   34</span>    <span class="comment">//Delete figure</span></div>
+<div class="line"><span class="lineno">   35</span>    <span class="keywordflow">for</span>(<span class="keywordtype">double</span> i = 0; i &lt; figure.size();i++){</div>
+<div class="line"><span class="lineno">   36</span>        <span class="keyword">delete</span> figure[i];</div>
+<div class="line"><span class="lineno">   37</span>    }</div>
+<div class="line"><span class="lineno">   38</span> </div>
+<div class="line"><span class="lineno">   39</span>    <span class="comment">//Delete sculptor</span></div>
+<div class="line"><span class="lineno">   40</span>    <span class="keyword">delete</span> sculptor;</div>
+<div class="line"><span class="lineno">   41</span>    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">   42</span>}</div>
+<div class="ttc" id="aclass_reader_html"><div class="ttname"><a href="class_reader.html">Reader</a></div><div class="ttdef"><b>Definition:</b> Reader.h:7</div></div>
+<div class="ttc" id="aclass_reader_html_a1558bee5f03cfd1e8a461485fc263d1a"><div class="ttname"><a href="class_reader.html#a1558bee5f03cfd1e8a461485fc263d1a">Reader::Read</a></div><div class="ttdeci">std::vector&lt; FiguraGeometrica * &gt; Read(std::string filename)</div><div class="ttdef"><b>Definition:</b> Reader.cpp:55</div></div>
+<div class="ttc" id="aclass_reader_html_a4495e329d3d7c296b904e2c099dac479"><div class="ttname"><a href="class_reader.html#a4495e329d3d7c296b904e2c099dac479">Reader::getDimx</a></div><div class="ttdeci">int getDimx()</div><div class="ttdef"><b>Definition:</b> Reader.cpp:36</div></div>
+<div class="ttc" id="aclass_reader_html_a91b7bd0bc6eabe9f99fd160df3d5e228"><div class="ttname"><a href="class_reader.html#a91b7bd0bc6eabe9f99fd160df3d5e228">Reader::getDimy</a></div><div class="ttdeci">int getDimy()</div><div class="ttdef"><b>Definition:</b> Reader.cpp:42</div></div>
+<div class="ttc" id="aclass_reader_html_ab4ac715553e6ab9711918ffbc0aa2f02"><div class="ttname"><a href="class_reader.html#ab4ac715553e6ab9711918ffbc0aa2f02">Reader::getDimz</a></div><div class="ttdeci">int getDimz()</div><div class="ttdef"><b>Definition:</b> Reader.cpp:48</div></div>
+<div class="ttc" id="aclass_sculptor_html"><div class="ttname"><a href="class_sculptor.html">Sculptor</a></div><div class="ttdoc">Classe que representa o escultor.</div><div class="ttdef"><b>Definition:</b> Sculptor.h:28</div></div>
+<div class="ttc" id="aclass_sculptor_html_a58cb72d22001a5034f15383ca983830c"><div class="ttname"><a href="class_sculptor.html#a58cb72d22001a5034f15383ca983830c">Sculptor::writeOFF</a></div><div class="ttdeci">void writeOFF(const char *filename)</div><div class="ttdef"><b>Definition:</b> Sculptor.cpp:137</div></div>
+<div class="ttc" id="amain_8cpp_html_a4310dd245f048a7909e2c5e2ac1e4b80"><div class="ttname"><a href="main_8cpp.html#a4310dd245f048a7909e2c5e2ac1e4b80">TesteEscultor</a></div><div class="ttdeci">const char * TesteEscultor</div><div class="ttdef"><b>Definition:</b> main.cpp:19</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Variáveis</h2>
+<a id="a4310dd245f048a7909e2c5e2ac1e4b80" name="a4310dd245f048a7909e2c5e2ac1e4b80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4310dd245f048a7909e2c5e2ac1e4b80">&#9670;&#160;</a></span>TesteEscultor</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char* TesteEscultor = &quot;teste.OFF&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
+</small></address>
+</body>
+</html>

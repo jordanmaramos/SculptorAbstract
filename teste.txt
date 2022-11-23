@@ -1,0 +1,4 @@
+dim 100 100 100
+putellipsoid 20 20 20 10 10 15 10 10 15 255 0 0 1
+cutsphere 15 15 15 7 15 15 15
+cutellipsoid 16 16 16 4 4 6 16 16 16
